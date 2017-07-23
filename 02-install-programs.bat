@@ -17,9 +17,17 @@ cinst linqpad -y
 cinst nodejs -y
 cinst visualstudio2017community -y
 cinst visualstudiocode -y
+cinst mysql.workbench -y
 
 # Meus Programas
 cinst dropbox -y
 cinst rdcman -y
 cinst skype -y
 cinst nextcloud-client -y
+cinst vlc -y
+
+
+# Container
+cinst docker -y
+cinst docker-compose -y
+cinst docker-machine -y
