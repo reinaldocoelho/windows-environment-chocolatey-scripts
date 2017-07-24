@@ -25,6 +25,7 @@ cinst rdcman -y
 cinst skype -y
 cinst nextcloud-client -y
 cinst vlc -y
+cinst iTunes -y
 
 # Jogos
 cinst steam -y
