@@ -26,6 +26,8 @@ cinst skype -y
 cinst nextcloud-client -y
 cinst vlc -y
 
+# Jogos
+cinst steam -y
 
 # Container
 cinst docker -y
