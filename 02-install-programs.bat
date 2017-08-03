@@ -1,4 +1,4 @@
-# Programas basicos
+﻿# Programas basicos
 cinst 7zip -y
 cinst GoogleChrome -y
 cinst ChocolateyGUI -y
@@ -20,6 +20,10 @@ cinst visualstudio2017community -y
 cinst visualstudiocode -y
 cinst mysql.workbench -y
 cinst kdiff3 -y
+# Desenvolvimento opcionais
+# cinst postman -y ## Programa para testes de urls, ótimo para validar e testar interface REST.
+# cinst catchlight -y ## Programa para acompanhamento de builds
+
 
 # Meus Programas
 cinst dropbox -y
@@ -28,6 +32,7 @@ cinst skype -y
 cinst nextcloud-client -y
 cinst vlc -y
 cinst iTunes -y
+cinst slack -y
 
 # Jogos
 cinst steam -y
