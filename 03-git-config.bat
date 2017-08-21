@@ -1,8 +1,8 @@
 git config --global core.editor 'subl -w'
 git config --global core.autocrlf true
 git config --global core.excludesfile ~/.gitignore
-git config --global user.email quentin.dreyer@gmail.com
-git config --global user.name qkdreyer
+git config --global user.email reinaldo.coelho@gmail.com
+git config --global user.name reinaldo
 git config --global push.default simple
 git config --global branch.autosetuprebase always
 git config --global fetch.recurseSubmodules true

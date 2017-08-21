@@ -20,8 +20,9 @@ cinst visualstudio2017community -y
 cinst visualstudiocode -y
 cinst mysql.workbench -y
 cinst kdiff3 -y
+cinst plantuml -y ## Programa de desenho UML atraves de texto
 # Desenvolvimento opcionais
-# cinst postman -y ## Programa para testes de urls, ótimo para validar e testar interface REST.
+# cinst postman -y ## Programa para testes de urls, ótimo para validar e testar interface REST
 # cinst catchlight -y ## Programa para acompanhamento de builds
 
 
