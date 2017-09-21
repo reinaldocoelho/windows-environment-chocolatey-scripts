@@ -24,7 +24,7 @@ cinst plantuml -y ## Programa de desenho UML atraves de texto
 # Desenvolvimento opcionais
 # cinst postman -y ## Programa para testes de urls, ótimo para validar e testar interface REST
 # cinst catchlight -y ## Programa para acompanhamento de builds
-
+cinst putty -y
 
 # Meus Programas
 cinst dropbox -y
