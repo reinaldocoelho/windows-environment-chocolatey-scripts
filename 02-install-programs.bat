@@ -25,6 +25,8 @@ cinst plantuml -y ## Programa de desenho UML atraves de texto
 # cinst postman -y ## Programa para testes de urls, ótimo para validar e testar interface REST
 # cinst catchlight -y ## Programa para acompanhamento de builds
 cinst putty -y
+cinst winscp -y
+
 
 # Meus Programas
 cinst dropbox -y
@@ -44,3 +46,7 @@ cinst docker -y
 cinst docker-compose -y
 cinst docker-machine -y
 cinst docker-for-windows -y
+
+
+# Programas que no momento nao estavam no Chocolatey.
+# cinst cerebro -y ## https://cerebroapp.com/
