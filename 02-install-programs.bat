@@ -26,7 +26,7 @@ cinst plantuml -y ## Programa de desenho UML atraves de texto
 # cinst catchlight -y ## Programa para acompanhamento de builds
 cinst putty -y
 cinst winscp -y
-
+cinst dotnet.script -y ## Permite a execução de .csx usando c# para scripts multi-plataforma.
 
 # Meus Programas
 cinst dropbox -y
@@ -48,5 +48,5 @@ cinst docker-machine -y
 cinst docker-for-windows -y
 
 
-# Programas que no momento nao estavam no Chocolatey.
+# Programas que no momento nao estavam no Chocolatey, Launcher de aplicativos.
 # cinst cerebro -y ## https://cerebroapp.com/
