@@ -27,6 +27,7 @@ cinst plantuml -y ## Programa de desenho UML atraves de texto
 cinst putty -y
 cinst winscp -y
 cinst dotnet.script -y ## Permite a execução de .csx usando c# para scripts multi-plataforma.
+choco install -y cake.portable ## Cake build.
 
 # Meus Programas
 cinst dropbox -y
@@ -48,5 +49,6 @@ cinst docker-machine -y
 cinst docker-for-windows -y
 
 
-# Programas que no momento nao estavam no Chocolatey, Launcher de aplicativos.
-# cinst cerebro -y ## https://cerebroapp.com/
+# Projetos sem Chocolatey no momento
+## cinst cerebro -y ## https://cerebroapp.com/
+## cinst vsts-cli -y ## https://docs.microsoft.com/pt-br/cli/vsts/install?view=vsts-cli-latest
