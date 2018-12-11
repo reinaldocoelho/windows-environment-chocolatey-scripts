@@ -12,12 +12,12 @@ CALL cinst x-lite -y
 REM Desenvolvimento
 REM CALL cinst DotNet4.5.2 -y
 REM CALL cinst DotNet4.6.1 -y
-REM CALL cinst dotnetcore -y
 CALL cinst dotnetcore-sdk -y
 CALL cinst git -y
 CALL cinst gitextensions -y
 CALL cinst linqpad -y
 REM CALL cinst dbeaver -y
+CALL cinst sql-server-management-studio -y
 CALL cinst nodejs -y
 CALL cinst visualstudio2017community -y
 CALL cinst visualstudiocode -y
@@ -30,8 +30,8 @@ REM CALL cinst postman -y ## Programa para testes de urls, ótimo para validar e
 REM CALL cinst catchlight -y ## Programa para acompanhamento de builds
 CALL cinst putty -y
 CALL cinst winscp -y
-CALL cinst dotnet.script -y ## Permite a execução de .csx usando c# para scripts multi-plataforma.
-choco install -y cake.portable ## Cake build.
+CALL cinst dotnet.script -y REM Permite a execução de .csx usando c# para scripts multi-plataforma.
+CALL cinst -y cake.portable REM Cake build.
 
 REM Meus Programas
 CALL cinst dropbox -y
@@ -51,7 +51,7 @@ REM  Para o docker funcionar, e necessario estar com o windows atualizado e com 
 CALL cinst docker -y
 CALL cinst docker-compose -y
 CALL cinst docker-machine -y
-CALL cinst docker-for-windows -y
+CALL cinst docker-desktop -y
 
 REM VMs as a Code
 REM CALL cinst vagrant -y
@@ -61,3 +61,24 @@ REM CALL cinst ??? -y
 REM Projetos sem Chocolatey no momento
 REM  CALL cinst cerebro -y ## https://cerebroapp.com/
 REM  CALL cinst vsts-cli -y ## https://docs.microsoft.com/pt-br/cli/vsts/install?view=vsts-cli-latest
+
+REM Instala os plugins do VSCode
+CALL code --install-extension berublan.vscode-log-viewer
+CALL code --install-extension cake-build.cake-vscode
+CALL code --install-extension DavidAnson.vscode-markdownlint
+CALL code --install-extension dunstontc.viml
+CALL code --install-extension emilast.LogFileHighlighter
+CALL code --install-extension erd0s.terraform-autocomplete
+CALL code --install-extension formulahendry.dotnet-test-explorer
+CALL code --install-extension humao.rest-client
+CALL code --install-extension jebbs.plantuml
+CALL code --install-extension k--kato.docomment
+CALL code --install-extension leighlondon.eml
+CALL code --install-extension mauve.terraform
+CALL code --install-extension ms-mssql.mssql
+CALL code --install-extension ms-vscode.csharp
+CALL code --install-extension ms-vscode.PowerShell
+CALL code --install-extension ms-vscode.vs-keybindings
+CALL code --install-extension PeterJausovec.vscode-docker
+CALL code --install-extension run-at-scale.terraform-doc-snippets
+CALL code --install-extension tht13.html-preview-vscode
