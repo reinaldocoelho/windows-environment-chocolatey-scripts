@@ -32,10 +32,12 @@ CALL cinst putty -y
 CALL cinst winscp -y
 CALL cinst dotnet.script -y REM Permite a execução de .csx usando c# para scripts multi-plataforma.
 CALL cinst -y cake.portable REM Cake build.
+CALL cinst -y NuGet.CommandLine REM NUGET CLIENT
 
 REM Meus Programas
 CALL cinst dropbox -y
-CALL cinst rdcman -y
+REM CALL cinst rdcman -y
+CALL cinst mRemoteNG -y
 CALL cinst skype -y
 REM CALL cinst nextcloud-client -y
 CALL cinst seafile-client -y
