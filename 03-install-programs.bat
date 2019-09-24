@@ -21,7 +21,7 @@ CALL cinst sql-server-management-studio -y
 CALL cinst nodejs -y
 CALL cinst visualstudio2017community -y
 CALL cinst visualstudiocode -y
-CALL cinst mysql.workbench -y
+REM CALL cinst mysql.workbench -y
 CALL cinst mysql-cli -y
 CALL cinst kdiff3 -y
 CALL cinst plantuml -y REM Programa de desenho UML atraves de texto
@@ -59,6 +59,7 @@ REM VMs as a Code
 REM CALL cinst vagrant -y
 CALL cinst terraform -y
 REM CALL cinst ??? -y
+CALL cinst packer -y
 
 REM Projetos sem Chocolatey no momento
 REM  CALL cinst cerebro -y ## https://cerebroapp.com/
@@ -84,3 +85,4 @@ CALL code --install-extension ms-vscode.vs-keybindings
 CALL code --install-extension PeterJausovec.vscode-docker
 CALL code --install-extension run-at-scale.terraform-doc-snippets
 CALL code --install-extension tht13.html-preview-vscode
+REM CALL code --install-extension remote.SSH REM Precisa do VSCode Insider
