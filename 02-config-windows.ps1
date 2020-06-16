@@ -5,14 +5,14 @@ Set-ExecutionPolicy Bypass -Scope Process
 
 # ##############################################################################################
 ### PASSO 2 - Efetua um teste de conexão com a internet para garantir os recursos necessários.
-###     ALERTA: O Windows tem comandos diferentes de acordo com a sua versão, se os comandos abaixo 
+###     ALERTA: O Windows tem comandos diferentes de acordo com a sua versão, se os comandos abaixo
 ###             não funcionarem, verifique: https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html
 # ##############################################################################################
 Write-Host "Verificando se ha conexao com a internet..."
 $hasInternet = (Test-Connection google.com -Count 3 -Quiet);
 if ($hasInternet -eq $false) {
     Write-Host "Concluido teste de internet com FALHA..."
-    return $false 
+    return $false
 }
 Write-Host "Concluido teste de internet com sucesso..."
 
@@ -42,6 +42,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName "WCF-Services45" -NoRestart
 
 Write-Host "Ativando recurso: ASPNET45"
 Enable-WindowsOptionalFeature -Online -FeatureName "IIS-ASPNET45" -NoRestart # -LimitAccess
+
+Write-Host "Ativando recurso: Hyper-V"
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V" -NoRestart # -LimitAccess
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V-Management-Clients" -NoRestart # -LimitAccess
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V-Management-PowerShell" -NoRestart # -LimitAccess
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V-Offline" -NoRestart # -LimitAccess
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V-Online" -NoRestart # -LimitAccess
 
 ## Detalhes em: https://docs.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2
 Write-Host "Instalando recurso: IIS"

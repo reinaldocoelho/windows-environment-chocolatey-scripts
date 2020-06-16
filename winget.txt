@@ -1,0 +1,2 @@
+https://github.com/microsoft/winget-cli
+https://build5nines.com/windows-gets-package-manager-with-winget-cli-utility/

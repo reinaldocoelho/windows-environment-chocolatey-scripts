@@ -37,6 +37,7 @@ CALL cinst -y NuGet.CommandLine REM NUGET CLIENT
 REM Meus Programas
 CALL cinst dropbox -y
 REM CALL cinst rdcman -y
+REM CALL cinst MobaXterm -y
 CALL cinst mRemoteNG -y
 CALL cinst skype -y
 REM CALL cinst nextcloud-client -y

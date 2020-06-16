@@ -36,7 +36,9 @@
 ## Meus Programas
 & cinst dropbox -y
 ## & cinst rdcman -y
+## & cinst MobaXterm -y
 & cinst mRemoteNG -y
+
 & cinst skype -y
 ## & cinst nextcloud-client -y
 & cinst seafile-client -y
